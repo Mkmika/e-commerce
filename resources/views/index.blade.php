@@ -9,7 +9,7 @@
     <!-- Slider -->
     <div data-hs-carousel='{
         "loadingClasses": "opacity-0"
-      }' class="relative">
+      }' class="relative py-11">
       <div class="hs-carousel relative overflow-hidden w-full min-h-96 rounded-lg">
         <div class="hs-carousel-body flex flex-nowrap transition-transform duration-700  {{-- absolute top-0 bottom-0 start-0 opacity-0 --}}">
           <div class="hs-carousel-slide">
@@ -347,10 +347,181 @@
         <button> View all </button>
       </div>
     </div>
-    <div>
-      
+    <div class="flex justify-between">
+      <a href="">
+        <div>
+          <div class="relative w-[220px] flex items-center justify-center bg-slate-100">
+            
+            <div class="flex flex-col justify-center items-center">
+              <div class="">
+                <img class="w-[170px] h-[170px] p-[30px]" src="images/coat.svg" alt="">
+              </div>
+             
+            </div>
+            <div class="absolute top-0 right-0 flex flex-col gap-[10px] px-[10px] py-[10px] ">
+              <img class="bg-white rounded-full flex items-center justify-center p-[2px]" src="images/heartSmall.svg" alt="">
+              <img class="bg-white rounded-full flex items-center justify-center p-[2px]" src="images/oeil.svg" alt="">
+            </div>
+          </div >
+          <div class="py-[10px] flex flex-col gap-[6px]">
+            <div>
+              <p class="text-[16px] font-medium">
+                The north coat 
+              </div>
+            <div class="flex gap-[10px] font-poppins ">
+              <p class="text-[#DB4444]">$260</p>
+              <p class="text-gray-400 line-through">$360</p>
+            </div>
+            <div class="flex gap-[10px]">
+              <img src="images/fiveStar.svg" alt="">
+              <p class="text-gray-400">(65)</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div>
+          <div class="relative w-[220px] flex items-center justify-center bg-slate-100">
+            
+            <div class="flex flex-col justify-center items-center">
+              <div class="">
+                <img class="w-[170px] h-[170px] p-[30px]" src="images/bag.svg" alt="">
+              </div>
+             
+            </div>
+            <div class="absolute top-0 right-0 flex flex-col gap-[10px] px-[10px] py-[10px] ">
+              <img class="bg-white rounded-full flex items-center justify-center p-[2px]" src="images/heartSmall.svg" alt="">
+              <img class="bg-white rounded-full flex items-center justify-center p-[2px]" src="images/oeil.svg" alt="">
+            </div>
+          </div >
+          <div class="py-[10px] flex flex-col gap-[6px]">
+            <div>
+              <p class="text-[16px] font-medium">
+                Gucci duffle bag 
+              </p>
+            </div>
+            <div class="flex gap-[10px] font-poppins ">
+              <p class="text-[#DB4444]">$960</p>
+              <p class="text-gray-400 line-through">$1160</p>
+            </div>
+            <div class="flex gap-[10px]">
+              <img src="images/fourHalfStar.svg" alt="">
+              <p class="text-gray-400">(65)</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div>
+          <div class="relative w-[220px] flex items-center justify-center bg-slate-100">
+            
+            <div class="flex flex-col justify-center items-center">
+              <div class="">
+                <img class="w-[170px] h-[170px] p-[30px]" src="images/gammaxx.svg" alt="">
+              </div>
+             
+            </div>
+            <div class="absolute top-0 right-0 flex flex-col gap-[10px] px-[10px] py-[10px] ">
+              <img class="bg-white rounded-full flex items-center justify-center p-[2px]" src="images/heartSmall.svg" alt="">
+              <img class="bg-white rounded-full flex items-center justify-center p-[2px]" src="images/oeil.svg" alt="">
+            </div>
+          </div >
+          <div class="py-[10px] flex flex-col gap-[6px]">
+            <div>
+              <p class="text-[16px] font-medium">
+                RGB liquid CPU Cooler 
+              </div>
+            <div class="flex gap-[10px] font-poppins ">
+              <p class="text-[#DB4444]">$160</p>
+              <p class="text-gray-400 line-through">$170</p>
+            </div>
+            <div class="flex gap-[10px]">
+              <img src="images/fourHalfStar.svg" alt="">
+              <p class="text-gray-400">(65)</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div>
+          <div class="relative w-[220px] flex items-center justify-center bg-slate-100">
+            
+            <div class="flex flex-col justify-center items-center">
+              <div class="">
+                <img class="w-[170px] h-[170px] p-[30px]" src="images/library.svg" alt="">
+              </div>
+             
+            </div>
+            <div class="absolute top-0 right-0 flex flex-col gap-[10px] px-[10px] py-[10px] ">
+              <img class="bg-white rounded-full flex items-center justify-center p-[2px]" src="images/heartSmall.svg" alt="">
+              <img class="bg-white rounded-full flex items-center justify-center p-[2px]" src="images/oeil.svg" alt="">
+            </div>
+          </div >
+          <div class="py-[10px] flex flex-col gap-[6px]">
+            <div>
+              <p class="text-[16px] font-medium">
+                Small BookSelf 
+              </div>
+            <div class="flex gap-[10px] font-poppins ">
+              <p class="text-[#DB4444]">$360</p>
+              <p class="text-gray-400 line-through"></p>
+            </div>
+            <div class="flex gap-[10px]">
+              <img src="images/fiveStar.svg" alt="">
+              <p class="text-gray-400">(65)</p>
+            </div>
+          </div>
+        </div>
+      </a>
     </div>
   </div>
+
+    {{-- Frame Categories --}}
+    <div class="sm:px-[70px] px-[30px] sm:py-[20px] py-[10px] flex flex-col gap-[10px]">
+      <div class="px-[56px] bg-black py-[40px] flex  ">
+        <div class="flex flex-col gap-[40px]">
+          <div>
+            <p class="font-poppins font-semibold text-[16px] leading-[20px] text-[#00FF66]  py-[20px] w-[90px]">Categories</p>
+            <p class="font-inter font-semibold text-[48px] leading-[60px] text-white tracking-wider  py-[40px] w-[500px]">Enhance Your Music Experience</p>
+          </div>
+          <div class="flex w-[320px] gap-[24px]">
+            <div class="w-[62px] h-[62px] bg-white flex flex-col items-center justify-center rounded-full">
+              <div class="text-black flex flex-col justify-center items-center">
+                <p class="font-poppins font-semibold text-[16px] leading-[20px]">05</p>
+                <p class="font-poppins text-[11px] leading-[18px]">Days</p>
+              </div>
+            </div>
+            <div class="w-[62px] h-[62px] bg-white flex flex-col items-center justify-center rounded-full">
+              <div class="text-black flex flex-col justify-center items-center">
+                <p class="font-poppins font-semibold text-[16px] leading-[20px]">23</p>
+                <p class="font-poppins text-[11px] leading-[18px]">Hours</p>
+              </div>
+            </div>
+            <div class="w-[62px] h-[62px] bg-white flex flex-col items-center justify-center rounded-full">
+              <div class="text-black flex flex-col justify-center items-center">
+                <p class="font-poppins font-semibold text-[16px] leading-[20px]">59</p>
+                <p class="font-poppins text-[11px] leading-[18px]">Minutes</p>
+              </div>
+            </div>
+            <div class="w-[62px] h-[62px] bg-white flex flex-col items-center justify-center rounded-full">
+              <div class="text-black flex flex-col justify-center items-center">
+                <p class="font-poppins font-semibold text-[16px] leading-[20px]">35</p>
+                <p class="font-poppins text-[11px] leading-[18px]">Seconds</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-[172px] bg-[#00FF66] text-sm text-white flex flex-col justify-center items-center p-3 rounded-lg ">
+            <button class="font-poppins font-medium text-[16px] leading-[24px]"> Buy Now</button>
+          </div>
+        </div>
+        <div class="">
+          <img class="flex justify-center items-center w-[600px] h-[420px] py-[37px] shadow-2xl" src="images/jbl.svg" alt="">
+        </div>
+      </div>
+    </div>
+     
+
+  
 
 
 </div>
